@@ -1,0 +1,54 @@
+body{
+    box-sizing: border-box;
+}
+.mainTitle{
+    text-align: center;
+    font-size: 4em;
+}
+.gameBoard{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    background-color: #777;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.gameBtn{
+    display: flex;
+    background-color: #aaa;
+    color: black;
+    font-size: 8rem;
+    justify-content: center;
+    align-items: center;
+    width: 33.333%;
+    height: 20vh;
+    margin: 1.111%;
+    border-radius: 10px;
+}
+.btnRow{
+    display: flex;
+}
+.playerOverlay{
+    display: flex;
+    background-color: #555;
+    opacity: 90%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    text-align: center;
+    width: 80%;
+    height: 60vh;
+    color: white;
+    font-size: 3em;
+    border-radius: 20px;
+}
+.playerOverlay h1 {
+    width: 80%;
+    margin: auto;
+}
+.playerDisplay{
+    float: left;
+    position: absolute;
+    text-align: center;
+}
